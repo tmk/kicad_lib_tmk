@@ -850,4 +850,51 @@ X ~ 3 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Jumper
+#
+DEF Jumper JP 0 30 Y N 1 F N
+F0 "JP" 0 100 50 H V C CNN
+F1 "Jumper" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 2 2 300 0 165 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Connected_Jumper
+#
+DEF Connected_Jumper JP 0 30 Y N 1 F N
+F0 "JP" 0 100 50 H V C CNN
+F1 "Connected_Jumper" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 1 1 300 0 165 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Wired_Jumper
+#
+DEF Wired_Jumper JP 0 30 Y N 1 F N
+F0 "JP" 0 100 50 H V C CNN
+F1 "Wired_Jumper" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 1 1 300 0 165 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
